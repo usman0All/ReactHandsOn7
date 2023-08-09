@@ -1,12 +1,12 @@
 import React from 'react'
-import { useSelector,useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 
 function Student() {
 
     const data= useSelector((state)=>state.student.studentdata)
     const Navi = useNavigate()
-    // const dispatch = useDispatch()
+
     console.log(data);
       return (
         <>
