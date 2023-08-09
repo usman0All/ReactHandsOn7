@@ -6,7 +6,7 @@ function Student() {
 
     const data= useSelector((state)=>state.student.studentdata)
     const Navi = useNavigate()
-    const dispatch = useDispatch()
+    // const dispatch = useDispatch()
     console.log(data);
       return (
         <>
